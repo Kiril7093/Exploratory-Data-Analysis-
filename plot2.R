@@ -15,4 +15,5 @@ powerData <- as.numeric(relevantData$Global_active_power)
 png("plot2.png", width=480, height=480)
 plot(datetime, powerData, type="l", xlab="", ylab="Global Active Power (kilowatts)")
 dev.off()
+
 # This code generates Plot2. 
